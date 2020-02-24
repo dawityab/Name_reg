@@ -1,0 +1,126 @@
+body{
+	background-color: #fff2e6;
+	text-align: center;
+}
+tr,th,td{
+	border: 1px solid black;
+}
+
+.input-section{
+	background-color: #ffd9b3 ; 
+	margin:20px ;
+	border-radius: 10px;
+	text-align: center;
+}
+.input{
+	margin: 20px;
+}
+.table-section{
+	background-color: #ffd9b3 ; 
+	margin:20px ;
+	border-radius: 10px;
+	text-align: center;
+
+	/*margin-left: 33%;*/
+}
+.table-name{
+	text-align:center;
+	border: 1px solid black;
+	width: 100%;
+
+}
+.table-row{
+	text-align: center;
+	border: 1px solid black;
+
+
+}
+.th-class{
+	background-color:  #ffddcc;
+	color:#66a3ff;
+	padding: 10px; 
+	border: 1px solid  #66a3ff;
+
+
+}
+
+.th-div{
+	/*background-color: #ffa64d;*/
+	
+	border-radius: 10px; 
+	text-align: center;
+
+	
+}
+.but-backg{
+	background-color: #ffa650;
+	margin:20px ;
+	border-radius: 10px;
+	text-align: center;
+
+	
+}
+
+
+.submit-forms,.back-forms{
+	/*background-color: #ffa64d;*/
+	/* margin:20px ;
+	 border-radius: 10px;
+	  text-align: center;
+	  
+	  font-weight: bolder;
+	  width: 20%;
+	  */
+
+	  border:solid 0px #6666ff;
+	  box-shadow: 3px;
+	  border-radius: 10px;
+	  margin: 20px;
+	  background-color:#66a3ff;
+	  color:  #ffffff;
+	  padding: 5px;
+	  text-align: center;
+	  font-weight: bolder;
+	  width: 20%;
+
+
+	}
+	#delete_btnn{
+		border:solid 0px #6666ff;
+		box-shadow: 3px;
+		border-radius: 10px;
+		margin: 10px;
+		background-color:#ff9999 ;
+		color:  #ffffff;
+		padding: 5
+	}
+	#message{
+		color: red;
+	}
+	@media screen and (max-width: 855px) {
+
+		.table-name, .th-div ,.table-section{
+			text-align: center;
+			width: 100%;
+
+			/*margin: 10px 20px;*/
+		}
+	}
+
+	@media screen and (max-width: 400px) {
+
+		.table-name, .th-div ,.table-section {
+			text-align: center;
+			width: 100%;
+			/*margin: 10px 5px 10px;*/
+		}
+
+		@media screen and (max-width: 375px) {
+
+			.table-name, .th-div,.table-section {
+				text-align: center;
+				width: 100%;
+				/*margin: 10px 5px 10px;*/
+
+			}
+		}

@@ -45,7 +45,7 @@ backToInital();
 
 			$('.table-name tr').click(function(){
 				$(this).remove();
-				return false;
+		return false;
 			})
 	row ++;
 console.log(first_name + " " + second_name + " " + thrid_name);
